@@ -1,0 +1,237 @@
+body{
+	margin:0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	box-sizing: border-box;
+}
+
+header{
+	padding: 25px 0px;
+}
+
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo{
+ width: 11%; 
+ float: left;
+ margin-top: 10px;
+}
+.logo img{
+	width: 100%;
+}
+
+.menu{
+ width: 70%;
+ float: right;
+ }
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style-type: none;
+	float: left;
+	
+}
+.menu ul li a{
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0px 60px;
+	text-transform: uppercase;
+	color: #626262;
+	border-bottom: 1px solid transparent;
+	padding: 5px 3px;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid  #626262;
+
+}
+/*strat banner*/
+
+.container img{
+	width: 100%;
+}
+/*End banner*/
+
+/*getway Section Strat*/
+.getway{
+	padding: 70px 0px;
+}
+.container2{
+	width: 80%;
+	margin: 0 auto;
+
+}
+.p-content{}
+.c_p1{
+	margin:0;
+	font-family:
+	font-size:14px;
+	font-weight:300;
+	color:#b4ad9e;
+	text-transform: uppercase;
+}
+.c_h1{
+
+	font-family:
+	font-size:30px;
+	font-weight:400;
+	color:#626262;
+}
+.c_p2{
+	margin-bottom: 35px;
+	font-family:;
+	font-size:17px;
+	font-weight:400;
+	color:#626262;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+.c_p3{
+	margin:0;
+	font-family:;
+	font-size:14px;
+	font-weight:300;
+	color:#b4ad9e;
+	text-transform: uppercase;
+}
+
+/*getway Section End*/
+
+
+/*Service Section Strat*/
+.ServiceWrapper{
+	overflow: hidden;
+}
+.Single-Service{
+	width: 45%;
+	float: left;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-right:10%;
+}
+
+.Single-Service:nth-child(2){
+	margin-right: 0;
+}
+.Single-Service:last-child{
+	margin-right: 0;
+}
+
+.S-img{ 
+	width: 100%;
+	padding-bottom: 13px;
+ }
+.S-img img{
+	width: 100%;
+
+}
+
+.sc_p2{
+    margin-bottom: 35px;
+    font-family: ;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262!important;
+    letter-spacing: 0px;
+    line-height: 25px;
+}
+
+/*Service Section End*/
+
+/*Sing up Section Strat*/
+.SingUp{
+	background-color: #F0F0F0;
+	padding: 65px 0px;
+}
+
+.SingBox h3{
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 22px;
+}
+.SingBox input{
+	margin: 0 auto;
+	padding: 10px 0px;
+	background:#F0F0F0; 
+	display: block;
+	border: none;
+	border-bottom: 1px solid black;
+	outline: none;
+}
+/*Sing up Section End*/
+/*Sing up Section End*/
+
+/*Enjoying Section Strat*/
+.Enjoying{
+	padding: 50px 0px;
+}
+.learnbtn{
+	margin: 0 auto;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.learnbtn a {
+    margin-left: -104px;
+    color: #626262;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #626262;;
+    padding: 10px 20px;
+}
+/*Enjoying Section End*/
+
+
+/*Footer strat*/
+.footer{
+	background: #F0F0F0;
+	padding: 15px 0px;
+}
+.footerwrapper{
+	overflow: hidden;
+}
+.f-left{ 
+	width: 50%;
+	float: left;
+	margin-top: 10px;
+ }
+.f-right{
+	width: 50%;
+	float: left;
+	overflow: hidden;
+	margin-top: 10px;
+
+
+}
+.f-right p{
+	display: inline-block;
+	margin-left: 310px;
+	font-weight: bold;
+}
+.social{
+	float: right;
+}
+.social a {
+	display: inline-block;
+}
+.social a img{
+	width: 30px;
+	padding: 14px 10px;
+}
+
+.social a :first-child img{
+	width: 35px !important;
+
+}
+
+/*Footer End*/
